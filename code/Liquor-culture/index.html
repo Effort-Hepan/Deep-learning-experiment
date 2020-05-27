@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!--meta使用name属性来定义一个HTML文档的描述、关键词、作者等-->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<!-- 让网页的宽度自动适应手机屏幕的宽度，shrink-to-fit使其在IOS9中生效-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- 为网页标题添加图标 -->
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/img/logo_ico.ico">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta charset="UTF-8">
+	<title>白酒与社会经济</title>
+	<link rel="stylesheet" href="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/css/linearicons.css">
+	<link rel="stylesheet" href="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/css/bootstrap.css">
+	<link rel="stylesheet" href="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/css/magnific-popup.css">
+	<link rel="stylesheet" href="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/css/owl.carousel.css">
+	<link rel="stylesheet" href="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/css/main.css">
+
+	<script src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/vendor/bootstrap.min.js"></script>
+	<script src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/jquery.magnific-popup.min.js"></script>	
+	<script src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/owl.carousel.min.js"></script>			
+	<script src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/jquery.sticky.js"></script>
+	<script src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/jquery.counterup.min.js"></script>
+	<script src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/waypoints.min.js"></script>
+	<script src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/jquery.nicescroll.min.js"></script>
+	<script src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/main.js"></script>
+
+
+	<script src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/echarts.min.js"></script>
+	<script type="text/javascript" src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/map/map.js"></script>
+	<script type="text/javascript" src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/tagcanvas.min.js"></script>
+	<script type="text/javascript" src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/rotate.js"></script>
+	<script type="text/javascript" src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/ecStat.min.js"></script>
+	<script type="text/javascript" src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/jquery.easing.js"></script>
+	<script type="text/javascript" src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/js/cascadeLanding.js"></script>
+	</head>
+	<body>
+		<!-- banner部分 -->
+		<section class="banner-area" id="home">
+			<!-- header标签定义文档的页眉（介绍信息），nav标签定义导航链接的部分 -->
+			<header class="default-header">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container">
+						<a class="navbar-brand" href="index.html">
+							<img src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/img/logo.png" alt="">
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="text-white lnr lnr-menu"></span>
+						</button>
+						<!-- bootStrap4中内容对齐有五种模式：justify-content-{around | between | start | center | end} -->
+						<div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+						    <ul class="navbar-nav banner-font-size" style="font-family: KaiTi;font-size: 18px">
+								<li><a href="#home">主  页</a></li>
+								<li><a href="#XiaoFei">展  示</a></li>
+								<li><a href="#analysis">分  析</a></li>
+								<li><a href="#r_predict">预  测</a></li>
+						    </ul>
+						  </div>						
+					</div>
+				</nav>
+			</header>
+		</section>
+
+		<section class="make-banner">
+			<div class="relative">
+				<video id="video-src" poster="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/img/timg.jpg" autoplay muted loop>
+					<source src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/%E9%B9%AC.mp4" type="video/mp4">
+				</video>
+				<div class="overlay" style="background: rgba(0,0,0,.3)"></div>
+				<div class="container">
+					<div class="row fullscreen justify-content-center align-items-center">
+						<div class="col-md-10 col-12">
+							<div class="banner-content text-center">
+								<h4 class="text-white mb-20 text-uppercase">consider things from every angle</h4>
+								<h2 class="text-white" style="font-size:40px">白酒与社会经济相关性的可视化分析</h2>
+								<br>
+								<p class="text-white">Visual analysis of the correlation between liquor and social economy <br><br>
+								<a href="#" class="text-uppercase header-btn" style="font-family: KaiTi;font-size: 20px" id="btn_header">PAUSE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Start culture Area -->
+		<section class="section-gap info-area" id="culture">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-40 col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10" style="color: #fff;">白酒消费文化</h1>
+							<p style="color: #F5F5F5;">从白酒近代发展的角度，简要描述白酒消费者消费行为<br>From the perspective of the modern development of liquor, this paper briefly describes the consumption behavior of liquor consumers.</p>
+						</div>
+					</div>
+				</div>					
+				<div class="single-info row mt-40">
+					<div class="col-lg-6 col-md-12 mt-120 text-center no-padding info-left">
+						<div class="info-thumb">
+							<img src="https://biyesheji-1258092413.cos.ap-chengdu.myqcloud.com/Liquor-culture/img/about-img.jpg" class="img-fluid" alt="">
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 no-padding info-rigth">
+						<div class="info-content text-black" style="font-size: 15px; font-family:Microsoft YaHei">
+							<p ><span style="font-size: 30px; font-weight: 2000;">&nbsp;&nbsp;白</span>酒是中华文明的生命线，自古以来，它帮助塑造了国家，宗教，文化和习俗，激发了诗人和画家的笔触。无论你在哪里，白酒都是中国文化无处不在的主食。在民国之前，白酒行业其实林立着许多派系。而这些派系都有自己的消费人群和固定的区域，一般来说，是不会逾越这个界限的。因为是战乱与黑暗的阶段，大家生计上十分困难，还经历了沉重的兵役、赋税以及外敌的打击，我们国家的工商业受到极大的损害，其中也包括了白酒行业。但是，人们逢年过节的时候，依旧会有酒有菜菜能够真正成为庆祝。于是，白酒就在大家深刻的认同之下，艰难地发展着。其中多次遭遇危难，不过到重要的关头，都逢凶化吉，不得不让人感叹老天的仁慈，给我们留下了这么美好的人间饮品。							
+							</p>
+							<br>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;现在，国内白酒消费者的分层和分化越来越明显，主要是两种类型，一种是购买高端白酒的，以茅台这样价格比较高、想买买不到的高端白酒为代表；另外一种则是消费中低端的，比如一些家常型的中低端白酒。两种类型的白酒产品，定价策略、营销方式自然也就大不相同，高端白酒打的是稀缺牌，走的是酒中贵族的奢侈品路线，价格稳中有升，体现的是身份、地位，有面子；中低端白酒靠的是价格取胜、规模走量，所以越是节庆日，打折让利、让利促销就成为一种必然常态。							
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End culture Area -->
+		
+		<!-- Start 消费行为 Area -->
+		<section class="project-area section-gap" id="XiaoFei">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10">白酒消费行为</h1>
+							<p>以下图表将展示我国人民关于白酒的消费行为 <br> The following chart will show the consumption behavior of Chinese people on liquor.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<div class="XiaoFei">
+							<div style="font-weight: bold;font-size: 20px;color:#000">白酒饮酒人群画像</div>
+					    	<div class="my_line" style="margin-top: 10px;"></div>
+					  		<div class="row my_col_height" style="margin-top:10px;">
+								<div class="col-xs-5 col-md-3 d-flex align-items-center justify-content-center">
+									<div class="my_box d-flex align-items-center justify-content-center">
+										性别分布
+									</div>
+								</div>
+								<div class="col-xs-7 col-md-9">
+									<div class="my_line  d-flex align-items-center" style="width: 100%;height: 100%;"><span class="counter my_font_style">75</span><span class="my_font_style">%</span>&nbsp;&nbsp;男性&nbsp;&nbsp;&nbsp;&nbsp;<span class="counter my_font_style2">25</span><span class="my_font_style2">%</span>&nbsp;&nbsp;女性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<svg style="width:165px;height: 30px;margin-top: 5px;" viewBox="0 0 165 35">
+											<circle class="st0" cx="5.7" cy="2.9" r="2.6"/>
+											<path class="st0" d="M11.4,9.1c0,0,0.1-3-3-3H3c-3,0-3,2.7-3,3l0,8.4c0,0.5,0.5,1,1,1c0.6,0,1-0.5,1-1L3,30.8
+												c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9h0.8c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9l1-13.4c0,0.5,0.4,1,1,1
+												c0.6,0,1-0.5,1-1L11.4,9.1z"/>
+											<circle class="st0" cx="21.5" cy="2.9" r="2.6"/>
+											<path class="st0" d="M27.2,9.1c0,0,0.1-3-3-3h-5.4c-3,0-3,2.7-3,3l0,8.4c0,0.5,0.5,1,1,1c0.6,0,1-0.5,1-1l0.9,13.3
+												c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9H22c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9l1-13.4c0,0.5,0.4,1,1,1
+												c0.6,0,1-0.5,1-1L27.2,9.1z"/>
+											<circle class="st0" cx="37.4" cy="2.9" r="2.6"/>
+											<path class="st0" d="M43.1,9.1c0,0,0.1-3-3-3h-5.4c-3,0-3,2.7-3,3l0,8.4c0,0.5,0.5,1,1,1c0.6,0,1-0.5,1-1l0.9,13.3
+												c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9h0.8c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9l1-13.4c0,0.5,0.4,1,1,1
+												c0.6,0,1-0.5,1-1L43.1,9.1z"/>
+											<circle class="st0" cx="53.7" cy="2.9" r="2.6"/>
+											<path class="st0" d="M59.4,9.1c0,0,0.1-3-3-3h-5.4c-3,0-3,2.7-3,3l0,8.4c0,0.5,0.5,1,1,1c0.6,0,1-0.5,1-1l0.9,13.3
+												c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9h0.8c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9l1-13.4c0,0.5,0.4,1,1,1
+												c0.6,0,1-0.5,1-1L59.4,9.1z"/>
+											<circle class="st0" cx="69.8" cy="2.9" r="2.6"/>
+											<path class="st0" d="M75.5,9.1c0,0,0.1-3-3-3h-5.4c-3,0-3,2.7-3,3l0,8.4c0,0.5,0.5,1,1,1c0.6,0,1-0.5,1-1l0.9,13.3
+												c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9h0.8c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9l1-13.4c0,0.5,0.4,1,1,1
+												c0.6,0,1-0.5,1-1L75.5,9.1z"/>
+											<circle class="st0" cx="85.9" cy="2.9" r="2.6"/>
+											<path class="st0" d="M91.6,9.1c0,0,0.1-3-3-3h-5.4c-3,0-3,2.7-3,3l0,8.4c0,0.5,0.5,1,1,1c0.6,0,1-0.5,1-1l0.9,13.3
+												c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9h0.8c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9l1-13.4c0,0.5,0.4,1,1,1
+												c0.6,0,1-0.5,1-1L91.6,9.1z"/>
+											<path class="st0" d="M118,5.6c-1.5,0-2.6-1.2-2.6-2.6s1.2-2.6,2.6-2.6"/>
+											<path class="st1" d="M118,0.3c1.5,0,2.6,1.2,2.6,2.6s-1.2,2.6-2.6,2.6"/>
+											<path class="st1" d="M117.9,30.8h0.4c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9l1-13.4c0,0.5,0.4,1,1,1c0.6,0,1-0.5,1-1l0-8.4
+												c0,0,0.1-3-3-3h-2.7"/>
+											<path class="st0" d="M118,6.1h-2.7c-3,0-3,2.7-3,3l0,8.4c0,0.5,0.5,1,1,1c0.6,0,1-0.5,1-1l0.9,13.3c0.1,0.7,0.5,0.9,1.1,0.9
+												c0.6,0,1.1-0.3,1.1-0.9h0.4"/>
+											<circle class="st0" cx="101.8" cy="2.9" r="2.6"/>
+											<path class="st0" d="M107.5,9.1c0,0,0.1-3-3-3h-5.4c-3,0-3,2.7-3,3l0,8.4c0,0.5,0.5,1,1,1c0.6,0,1-0.5,1-1l0.9,13.3
+												c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9h0.8c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9l1-13.4c0,0.5,0.4,1,1,1
+												c0.6,0,1-0.5,1-1L107.5,9.1z"/>
+											<circle class="st1" cx="134" cy="2.9" r="2.6"/>
+											<path class="st1" d="M139.7,9.1c0,0,0.1-3-3-3h-5.4c-3,0-3,2.7-3,3l0,8.4c0,0.5,0.5,1,1,1c0.6,0,1-0.5,1-1l0.9,13.3
+												c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9h0.8c0.1,0.7,0.6,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9l1-13.4c0,0.5,0.4,1,1,1
+												c0.6,0,1-0.5,1-1L139.7,9.1z"/>
+											<circle class="st1" cx="150.1" cy="2.9" r="2.6"/>
+											<path class="st1" d="M155.8,9.1c0,0,0.1-3-3-3h-5.4c-3,0-3,2.7-3,3l0,8.4c0,0.5,0.5,1,1,1c0.6,0,1-0.5,1-1l0.9,13.3
+												c0.1,0.7,0.5,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9h0.8c0.1,0.7,0.6,0.9,1.1,0.9c0.6,0,1.1-0.3,1.1-0.9l1-13.4c0,0.5,0.4,1,1,1
+												c0.6,0,1-0.5,1-1L155.8,9.1z"/>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="row my_col_height ">
+								<div class="col-xs-5 col-md-3 d-flex align-items-center justify-content-center">
+									<div class="my_box d-flex align-items-center justify-content-center" style="margin-top: 2px;">
+										平均年龄
+									</div>
+								</div>
+								<div class="col-xs-7 col-md-9">
+									<div class="my_line  d-flex align-items-center" style="width: 100%;height: 100%;"><span class="counter my_font_style">37</span>&nbsp;&nbsp;岁
+									</div>
+								</div>
+							</div>
+							<div class="row my_col_height ">
+								<div class="col-xs-5 col-md-3 d-flex align-items-center justify-content-center">
+									<div class="my_box d-flex align-items-center justify-content-center" style="margin-top: 2px;">
+										婚姻状况
+									</div>
+								</div>
+								<div class="col-xs-7 col-md-9">
+									<div class="d-flex align-items-center" style="width: 100%;height: 100%;"><span class="counter my_font_style">92</span><span class="my_font_style">%</span>&nbsp;&nbsp;已婚
+									</div>
+								</div>
+							</div>
+							<div class="row my_col_height ">
+								<div class="col-xs-5 col-md-3 d-flex align-items-center justify-content-center">
+									<div class="my_box d-flex align-items-center justify-content-center" style="margin-top: 2px;">
+										购买频率
+									</div>
+								</div>
+								<div class="col-xs-7 col-md-9">
+									<div class="my_line d-flex align-items-center" style="width: 100%;height: 100%;"><span class="counter my_font_style">28</span><span class="my_font_style">%</span>&nbsp;&nbsp;每月&nbsp;&nbsp;<span class="counter my_font_style">30</span><span class="my_font_style">%</span>每季度&nbsp;&nbsp;<span class="counter my_font_style">10</span><span class="my_font_style">%</span>每半年&nbsp;&nbsp;<span class="counter my_font_style">31</span><span class="my_font_style">%</span>按需购买
+									</div>
+								</div>
+							</div>
+							<div class="row my_col_height ">
+								<div class="col-xs-5 col-md-3 d-flex align-items-center justify-content-center">
+									<div class="my_box d-flex align-items-center justify-content-center" style="margin-top: 2px;">
+										平均消费价格
+									</div>
+								</div>
+								<div class="col-xs-7 col-md-9">
+									<div class="my_line  d-flex align-items-center" style="width: 100%;height: 100%;"><span class="counter my_font_style">600</span>&nbsp;&nbsp;元( 五成以上集中在500 ~ 1000元 )
+									</div>
+								</div>
+							</div>
+							<div class="row my_col_height ">
+								<div class="col-xs-5 col-md-3 d-flex align-items-center justify-content-center">
+									<div class="my_box d-flex align-items-center justify-content-center" style="margin-top: 2px;">
+										主要消费场景
+									</div>
+								</div>
+								<div class="col-xs-7 col-md-9">
+									<div class="my_line  d-flex align-items-center" style="width: 100%;height: 100%;">宴请、送礼
+									</div>
+								</div>
+							</div>
+							<div class="row my_col_height ">
+								<div class="col-xs-5 col-md-3 d-flex align-items-center justify-content-center">
+									<div class="my_box d-flex align-items-center justify-content-center" style="margin-top: 2px;">
+										重点考虑因素
+									</div>
+								</div>
+								<div class="col-xs-7 col-md-9">
+									<div class="my_line  d-flex align-items-center" style="width: 100%;height: 100%;">口感、品牌、度数、年份
+									</div>
+								</div>
+							</div>
+							<div class="row my_col_height ">
+								<div class="col-xs-5 col-md-3 d-flex align-items-center justify-content-center">
+									<div class="my_box d-flex align-items-center justify-content-center" style="margin-top: 2px;">
+										青睐的品牌
+									</div>
+								</div>
+								<div class="col-xs-7 col-md-9">
+									<div class="d-flex align-items-center" style="width: 100%;height: 100%;">五粮液、茅台、剑南春
+									</div>
+								</div>
+							</div>
+							<div class="my_line" style="margin-top: 20px;"></div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<div class="mar_top_me" style="font-weight: bold;font-size: 20px;color:#000;margin-left: 8%;">购酒信息渠道</div>
+						<div class="my_line" style="margin-top: 10px;margin-left: 8%;margin-right: 7%;"></div>
+						<div id="QD" class="QD"></div>
+						<div class="my_line" style="margin-top: 1%;margin-left: 8%;margin-right: 7%;"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End project Area -->
+		<!-- Start project Area -->
+		<section class="project-area" id="project">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10">近5年各省白酒商用量</h1>
+							<p>该气泡图，描述了近5年的各省白酒商用量的增幅变化 <br> This bubble chart describes the increase and change of liquor commercial volume in each province in the past five years.</p>
+						</div>
+					</div>
+				</div>
+				<div id="tooltip"></div>						
+				<div class="row m-auto d-flex map_size" id="map"></div>
+				<div style="height:80px;"></div><!--用于调整上下板块距离，无实际意义-->
+			</div>	
+		</section>
+		<!-- End project Area -->
+		<!-- Start ciyun Area -->
+		<section class="project-area" id="CiYun">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<div id="Ci_yun">
+							<div style="font-weight: bold;font-size: 20px;color:#000">第2届全球名酒100强品牌</div>
+							<p style="margin-top: 5px;">由中国酒类流通协会和中华品牌战略研究院共同发布<br> Jointly issued by China wine Circulation Association and China Brand Strategy Research Institute.</p>
+						    <div class="my_line" style="margin-top: 10px;"></div>
+							<canvas width='440' height='480' id='myCanvas'>
+							</canvas>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<div id="Polar_c">
+							<div id="polar_chart" style="width: 450px;height:260px;margin-left:0%"></div>
+							<div class="my_line" style="width: 100%;margin-top: 20px;"></div>
+							<div style="font-weight: bold;font-size: 20px;color:#000;margin-top: 10px;">高净值饮酒人群职务分布</div>
+							<p style="margin-top: 5px;">白酒饮用人群平均年龄高于其他品类，达37岁。总体性别分布上，男性占比四分之三。高净值饮酒人群(高净值人群一般指资产净值在1000万人民币资产以上的个人)的职位往往是应酬度大或高压力的管理层角色，其中有68%是中高层管理人员。<br>The average age of liquor drinkers was 37 years old. In terms of overall gender distribution, three quarters of them are male. The positions of high net worth drinkers (high net worth people generally refer to individuals with a net worth of more than 10 million yuan) are often management roles with high social engagement or high pressure, of which 68% are middle and senior management.</p>
+							    
+						</div>
+					</div>
+				</div>
+				<div style="height: 30px;"></div><!--用于调整上下板块距离，无实际意义-->
+			</div>
+		</section>
+
+		<!-- Start analysis Area -->
+		<section class="feature-area section-gap" id="analysis">
+			<div class="container" style="overflow: hidden;">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-60 col-lg-10">
+						<div class="title text-center">
+							<div class="d-flex justify-content-center align-items-center">
+								<h1 class="mb-10" style="color: #fff;">未来3年白酒商用量预测</h1>
+								<svg id='rota' class="mb-10 ml-10" t="1588221342683" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1137" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" >
+								<defs><style type="text/css"></style></defs>
+								<path d="M959.361841 445.166849C945.035554 348.767312 900.93515 261.283842 831.825143 192.174857S675.232688 78.963423 578.833151 64.639183c-46.37419-6.890944-93.349061-6.578836-139.621944 0.928139-46.87254 7.605212-91.967598 22.429849-134.035716 44.065612-10.051937 5.169743-14.010085 17.508769-8.840342 27.560706 5.169743 10.050913 17.507746 14.010085 27.560706 8.840342 159.536506-82.048691 352.025519-51.874461 478.985072 75.085092 97.435123 97.435123 137.857764 233.466286 114.305349 363.578646-19.110243-32.767288-43.977607-56.613392-86.173638-88.125083-8.604982-6.426363-29.939893-15.565511-33.278941 5.265934-1.428535 8.912997 37.864376 56.437383 55.593156 105.641015 20.941961 58.125839 14.232143 73.696466 22.733771 105.740276 0.211824 1.131777 0.520863 2.241041 0.918929 3.320629 0 0 0 0 0 0 5.590322 19.382443 25.494651 16.813944 32.499182 8.475022 0.01228-0.014326 0.025583-0.032746 0.037862-0.047072 1.941212-1.670036 3.608178-3.725858 4.851495-6.14393 21.635763-42.067095 36.4604-87.163175 44.065612-134.035716C965.940676 538.516934 966.251761 491.541039 959.361841 445.166849z" p-id="1138" fill="#F5F5F5"></path>
+								<path d="M700.103122 877.968066c-159.536506 82.047668-352.026542 51.873438-478.985072-75.085092C123.725906 705.490829 83.295078 569.538461 106.779955 439.480336c19.360953 34.474163 44.457538 58.845223 88.044242 91.39557 8.604982 6.426363 29.939893 15.565511 33.278941-5.265934 1.428535-8.912997-37.864376-56.437383-55.593156-105.641015-21.653159-60.09775-13.744026-74.702376-23.652699-109.060905-1.339508-4.64581-3.50687-8.018627-6.116301-10.365068-1.559519-1.661849-3.405563-3.104711-5.548366-4.206812-10.050913-5.169743-22.390963-1.211595-27.559683 8.839319-21.63474 42.067095-36.461423 87.163175-44.065612 134.035716-7.506974 46.27186-7.819083 93.246731-0.927115 139.620921 14.325263 96.399537 58.425667 183.884031 127.535675 252.993015 69.108984 69.108984 156.592454 113.210411 252.993015 127.535675 46.373167 6.890944 93.349061 6.579859 139.620921-0.928139 46.87254-7.605212 91.968621-22.430872 134.035716-44.065612 10.051937-5.16872 14.010085-17.508769 8.840342-27.559683C722.495108 876.751355 710.154036 872.798323 700.103122 877.968066z" p-id="1139" fill="#F5F5F5"></path>
+							</svg>
+							</div>
+							
+							<div class="d-flex justify-content-center align-items-center" style="width: 100%;">
+								<div class="my_font_style4" style="color: #F5F5F5;">以下将对未来3年白酒商用量进行预测和描述</div> 
+								<div class="my_font_style3" id="my_font_style3">
+									<span style="font-size: 13px;color: #F5F5F5;">(以下图表支持左右拖动</span>
+									<svg t="1588312029964" class="icon" viewBox="0 0 768 768" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1139" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15"><defs><style type="text/css"></style></defs><path d="M802.909091 487.144727H333.661091l184.762182-170.589091a34.909091 34.909091 0 1 0-47.36-51.269818l-250.391273 231.098182a34.955636 34.955636 0 0 0 0 51.316364l250.391273 231.098181a34.862545 34.862545 0 0 0 49.338182-1.954909 34.909091 34.909091 0 0 0-1.978182-49.338181l-184.762182-170.542546H802.909091a34.909091 34.909091 0 1 0 0-69.818182" fill="#F5F5F5" p-id="1140"></path></svg>
+									
+									<svg t="1588312077227" class="icon" viewBox="0 0 768 768" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1971" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15"><defs><style type="text/css"></style></defs><path d="M244.363636 556.939636h469.248l-184.762181 170.565819a34.909091 34.909091 0 1 0 47.36 51.29309l250.391272-231.121454a34.955636 34.955636 0 0 0 0-51.293091l-250.391272-231.121455a34.862545 34.862545 0 0 0-49.338182 1.95491 34.909091 34.909091 0 0 0 1.978182 49.338181l184.762181 170.565819H244.363636a34.909091 34.909091 0 1 0 0 69.818181" fill="#F5F5F5" p-id="1972"></path></svg>
+									<span style="font-size: 13px;color: #F5F5F5;">)</span>
+								</div>
+							</div>
+							<p style="color: #F5F5F5;"> The following will predict and describe the commercial volume of liquor in the next three years.</p>
+						</div>
+								
+					</div>
+				</div>						
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="active-blog-slider" >
+							<div id="include_time" style="width: 2600px;height: 400px;">
+								<div class="my_flex_box align-items-center" style="width: 100%;height: 400px;">
+									<div id="K3"></div>
+									<div id="K2"></div>
+									<div id="K1"></div>
+									<div id="K4"></div>
+									<div id="K6" style=" margin-left:20px;height: auto;">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="margin-top: 20px;">
+					<div class="col-lg-12">
+						<div id="active-blog-slider-P" >
+							<div id="include_time_P" style="width: 2200px;height: 400px;">
+								<div class="my_flex_box align-items-center" style="width: 100%;height: 400px;">
+									<div id="P1"></div>
+									<div id="P2"></div>
+									<div id="P3"></div>
+									<div id="P4"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="row d-flex align-items-center" style="margin-top: 70px;">
+					<div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 d-flex align-items-center justify-content-center">
+						<div style="width: 90%;height:430px;">
+							<span style="font-size: 16px;color: #fff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本次预测一共选取特征数8个，分别为：营销方式、白酒销售量、人均可支配收入、企业研究主题、粮食产量、期刊发布量、经济政策、技术改革。考虑是否易收集、研究模型范围等主观剔除营销方式、技术改革等3项，线性分析后剔除人均可支配收入。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;线性分析依据：折线图显示两个特征的变化趋势是否具有明显的相关性；柱状图显示4个变量分别与商用量的pearson相关系数、spearman相关系数、Kendall相关系数；散点图显示两个特征是否具有线性关系，这将作为预测阶段能否使用多元线性回归算法的依据。线性分析仅对可量化的特征有适用性<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;政策量化依据：令政策颁布当年白酒商用量为x1，政策颁布前一年白酒商用量为x2，计算出政策颁布当年白酒商用量的同比增长率((x1-x2)/x1)*100%。同理计算出政策颁布上一年的同比增长率，其中，若政策的颁布是在该年前三季度，则上年同比增长率按常规计算，令为y；若是在第四季度，则在去年基础上再往前计算1年同比增长率并求前年与去年该值的平均值，令为y。用政策颁布当年同比增长率-y值，所得结果在考虑对LSTM算法的影响的基础上，适当标准化后视为影响系数。正值为政策的颁布会使白酒商用量增加，反之亦然。为0表示该政策的影响系数与主观相悖,视为无影响。</span>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-xs-12 col-sm-12" >
+						<div id="K5" style="width: 100%;height:430px;"></div>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<!-- End analysis Area -->
+		
+		<!-- start Prediction Area -->		
+		<section style="background-color: rgb(0,0,0,0.4);padding-top: 100px;" id="r_predict">
+			<div class="container">
+				<div class="row d-flex justify-content-center align-items-center" style="margin-bottom: 60px;">
+					<div class="col-lg-12">
+						<div class="title text-center">
+							<h1 class="mb-10" style="color:#fff;">预测算法结果展示</h1>
+							<p style="color: #F5F5F5;">以下卡片将展示三种预测算法预测结果，第四张卡片用于对比。 <br> The following card will show the prediction results of three prediction algorithms, and the fourth card is used for comparison.</p>
+						</div>
+					</div>
+				</div>
+				<!-- Cascade -->
+				<div class="row d-flex justify-content-center">
+					<div class="cascade  d-flex justify-content-center align-items-center" id="cascade_show">
+					
+						<!-- Box menu -->
+						<ul class="cascade-menu d-flex justify-content-center align-items-center">
+							<li class="blue" id="S_chart1" style="overflow: hidden;">
+								<h3>Multi-Linear</h3>
+								<span>多元线性</span>
+							</li>
+							<li class="green" id="S_chart2" style="overflow: hidden;">
+								<h3>Single-LSTM</h3>
+								<span>单特征LSTM</span>
+							</li>
+							<li class="yellow" id="S_chart3" style="overflow: hidden;">							
+								<h3>Multi-LSTM</h3>
+								<span>多特征LSTM</span>
+							</li>
+							<li class="orange" id="S_chart4" style="overflow: hidden;">							
+								<h3>Compare</h3>
+								<span>效果比较</span>
+							</li>
+						</ul>
+						<!-- /Box menu -->
+						<!-- Window -->
+						<div class="cascade-window">
+							<!-- Close bar -->
+							<div class="cascade-window-close-bar">
+								<a href="#"></a>
+							</div>
+							<!-- /Close bar -->
+							<!-- Page content -->
+							<div class="cascade-window-content" id="cascade-window-content"></div>
+							<!-- /Page content -->
+						</div>
+						<!-- /Window -->
+					</div>
+				</div>
+				<!-- /Cascade -->
+				<div class="row">
+					<div id="show_me_prediction" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div id="S_S_1" style="width: 100%;height: 550px;"></div>
+						<div id="S_S_2" style="width: 100%;height: 550px;"></div>
+						<div id="S_S_3" style="width: 100%;height: 550px;"></div>
+						<div id="S_S_4" style="width: 100%;height: 550px;"></div>
+					</div>
+				</div>
+				<div style="height: 40px;"></div><!--用于调整上下板块距离，无实际意义-->
+			<!-- /Content -->							
+			</div>
+		</section>	
+		<div style="margin-top: 10px;"><p style="text-align: center;color: aliceblue;font-size: 16px">Copyright © 2019-2020 上帝方丹   All Rights Reserved. 备案号：蜀ICP备18038344号-1  </p></div>
+	</body>
+</html>

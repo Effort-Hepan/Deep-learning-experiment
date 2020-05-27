@@ -1,0 +1,21 @@
+Chrome关闭禁止跨域设置：属性-目标，在最后添加--allow-file-access-from-files，有空格。
+CSS：
+		1. bootstrap版本为v4;
+		2. linearicon.css  插件描述：线性图标库		链接：https://linearicons.com/free
+		3. magnific-popup.css 	插件描述：与jquery.magnific-popup.min.js搭配使用 	链接：同js
+		4. nice-select.css 	插件描述：与jquery.nice-select.min.js搭配使用 	链接：同js
+		5. owl.carousel.css 	插件描述：与owl.carousel.min.js搭配使用 	链接：同js
+		6. font-awesome.min.css 	插件描述：一套绝佳的图标字体库和CSS框架 链接：https://fontawesome.dashgame.com/#top
+
+请删除数字滚动插件，countup.js特点：不会在用户滑到页面才显示，一开始就会全部加载完
+
+JS:
+		1. jquery.magnific-popup.min.js  		插件描述：Lightbox和模态对话框插件。可以显示内联HTML、iframes（YouTube视频、Vimeo、Google地图）或图像库。动画效果添加了CSS3过渡。对于jQuery或Zepto。		链接：https://github.com/dimsemenov/Magnific-Popup
+		2. waypoints.min.js 		插件描述：(与jquery.countup.min.js组合使用)一款用于捕获各种滚动事件的插件?Waypoints。同时Waypoints还支持固定元素和无限滚动的功能，功力十分强大。  链接：https://github.com/imakewebthings/waypoints
+		3. slick.js 		插件描述：基于jQuery的响应触摸式幻灯片插件		链接：https://www.slickjs.cn/
+		4. parallax.min.js 		插件描述：受spotify.com启发的简单视差滚动效果实现为jQuery插件	链接：https://github.com/pixelcog/parallax.js
+		5. owl.carousel.min.js 	插件描述：启用触摸功能的jQuery插件，可让您创建漂亮的响应式轮播滑块。 链接：http://owlcarousel2.github.io/OwlCarousel2/		实例：https://owlcarousel2.github.io/OwlCarousel2/docs/api-classes.html
+		6. jquery.sticky.js 	插件描述：Sticky是一个jQuery插件，使您能够使页面上的任何元素始终保持可见状态。 	链接：https://github.com/garand/sticky
+		7. jquery.nice-select.min.js 	插件描述：一个轻量级的jQuery插件，用可自定义的下拉列 表替换了本机选择元素。		链接：http://hernansartorio.com/jquery-nice-select/
+		8. jquery.counterup.min.js 		插件描述：jquery.countup.js是一个jQuery插件，可将数字从 零动画化（向上计数）。 		链接：https://github.com/AGMStudio/jquery.countup.js
+		9.tagcanvas.min.js 			插件描述：（无需引用css，有本文件内部自动建立）TagCanvas是一款标签云插件，支持文字标签云和图片标签云  链接：https://www.goat1000.com/tagcanvas.php

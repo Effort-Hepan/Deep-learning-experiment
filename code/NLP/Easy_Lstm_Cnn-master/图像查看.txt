@@ -1,0 +1,7 @@
+
+1. 目标目录位置F:\Anaconda\envs\tensorflow\Scripts
+2.        .\tensorboard.exe --logdir C:\Users\eternal\Desktop\机器学习\源代码-Easy_Lstm_Cnn-master\Easy_Lstm_Cnn-master\tensorboard\Lstm_CNN --host 127.0.0.1
+3.   使用方式：
+    修改参数：data_processing.py中  categories
+                    Parameters.py中   num_classes
+                    注：【train和test中的label数目必须分别同num_classes相同
